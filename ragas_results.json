@@ -1,0 +1,18 @@
+{
+  "turns": [
+    {
+      "pipeline": "recommend",
+      "question": "I need a laptop with high GPU intensity, high display quality, medium portability, medium multitasking, medium processing speed and a budget of 850000.",
+      "scores": {
+        "faithfulness": NaN,
+        "answer_relevancy": NaN
+      },
+      "timestamp": "2026-07-14T05:25:32.651150"
+    }
+  ],
+  "average": {
+    "faithfulness": NaN,
+    "answer_relevancy": NaN
+  },
+  "count": 1
+}

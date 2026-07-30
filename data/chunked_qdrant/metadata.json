@@ -1,0 +1,14 @@
+{
+  "total_laptops": 1000,
+  "total_chunks": 7515,
+  "chunk_size": 500,
+  "chunk_overlap": 100,
+  "batch_size": 256,
+  "vector_size": 384,
+  "collection_name": "laptops_chunked",
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+  "created_at": "Mon Jul 13 12:18:08 2026",
+  "build_time_seconds": 34.43824124336243
+}

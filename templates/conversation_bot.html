@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Assistant</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+</head>
+
+<body>
+    <div class="outercontainer">
+        <div class="header">
+            <h1 class="title">Shopping Assistant</h1>
+        </div>
+        <div class="conversationcontainer" id="chatcontainer">
+            {% for entry in name_xyz %}
+            <div class="{% if entry.bot %}bot{% else %}user{% endif %}">
+                {% if entry.bot %}
+                <span class="markdown-content" data-raw="{{ entry.bot | e }}"></span>
+                {% else %}
+                {{ entry.user }}
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        <div class="inputcontainer">
+            <form action="/conversation" method="POST" class="inputform">
+                <input type="text" name="user_input_message" class="inputtextbox"
+                    placeholder="Type your message here...">
+                <button type="submit" class="submitbutton"></button>
+            </form>
+            <form action="/end_conversation" method="POST" class="endform">
+                <button type="submit" class="endbutton">End Chat</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        marked.use({ mangle: false, headerIds: false });
+
+        document.querySelectorAll('.markdown-content').forEach(function(el) {
+            var raw = el.getAttribute('data-raw') || '';
+
+            var txt = document.createElement('textarea');
+            txt.innerHTML = raw;
+            var decoded = txt.value;
+
+            el.innerHTML = marked.parse(decoded);
+        });
+
+        function scrollToBottom() {
+            var chatContainer = document.getElementById('chatcontainer');
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+        window.onload = scrollToBottom;
+    </script>
+</body>
+
+</html>

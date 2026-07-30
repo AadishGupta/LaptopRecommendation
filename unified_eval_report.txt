@@ -1,0 +1,124 @@
+UNIFIED RAG EVALUATION REPORT
+Generated : 2026-07-22T06:19:18.963654
+Threshold : correctness >= 0.65 => 'correct'
+
+========================================================================
+  OVERVIEW
+========================================================================
+  Total turns evaluated                        10
+  GT-scored turns                              0
+  Unscored (no GT combo)                       10
+  Errors                                       0
+
+========================================================================
+  GROUND TRUTH CORRECTNESS  (0.7 x field_agreement + 0.3 x price_closeness)
+========================================================================
+  Average correctness                          n/a
+  Std dev correctness                          n/a
+  Min / Max correctness                        None / None
+  Avg field-agreement frac                     n/a
+  Avg price closeness                          n/a
+
+========================================================================
+  CLASSIFICATION METRICS  (threshold=0.65)
+========================================================================
+  N scored                                     0
+  TP / FP / FN / TN                            None / None / None / None
+  Accuracy                                     n/a
+  Precision                                    n/a
+  Recall                                       n/a
+  F1 score                                     n/a
+  Positive rate                                n/a
+
+========================================================================
+  RETRIEVAL METRICS  (top-10)
+========================================================================
+  Avg Recall @ 10                              n/a
+  Avg Precision @ 10                           n/a
+  Avg MRR                                      n/a
+  Avg nDCG @ 10                                n/a
+  Avg latency (ms)                             n/a
+
+========================================================================
+  LLM-AS-A-JUDGE  (1–10 each, gemini-3.1-flash-lite)
+========================================================================
+    comprehensiveness                          4.3
+    diversity                                  4.7
+    empowerment                                4.8
+    directness                                 6.4
+    factual_accuracy                           3.8
+    specificity                                6.0
+    coherence                                  7.4
+    conciseness                                6.2
+    helpfulness                                3.5
+  Overall average                              5.234
+  Retrieval quality composite                  4.701
+  Answer quality composite                     5.875
+
+========================================================================
+  ANSWER RELEVANCY  (embedding fast path by default; --ragas for full library)
+========================================================================
+  Faithfulness                                 n/a
+  Answer relevancy                             0.87
+
+========================================================================
+  RECENCY WINDOWS  (last-1 / last-5-avg / last-10-avg)
+========================================================================
+
+  Metric                                   last-1  last-5-avg  last-10-avg
+  ------------------------------------------------------------------------
+  correctness                                None        None         None
+  field_agreement_frac                       None        None         None
+  price_closeness                            None        None         None
+  recall_at_10                               None        None         None
+  precision_at_10                            None        None         None
+  mrr                                        None        None         None
+  ndcg_at_10                                 None        None         None
+  judge_comprehensiveness                       6         4.2          4.3
+  judge_diversity                               8         5.8          4.7
+  judge_empowerment                             7         5.2          4.8
+  judge_directness                              9         7.6          6.4
+  judge_factual_accuracy                        5         3.4          3.8
+  judge_specificity                             9         6.4          6.0
+  judge_coherence                               9         7.8          7.4
+  judge_conciseness                             9         7.6          6.2
+  judge_helpfulness                             6         4.0          3.5
+  judge_judge_avg                            7.56       5.778        5.234
+  judge_retrieval_quality                    6.67       4.668        4.701
+  judge_answer_quality                       8.25        6.75        5.875
+  faithfulness                               None        None         None
+  answer_relevancy                          0.882      0.8834         0.87
+
+========================================================================
+  CASE MEMORY  (Qdrant case_memory — what the system has learned)
+========================================================================
+  Total cases stored                           24
+  Quality-scored cases                         4
+  Unscored cases                               20
+  Avg stored correctness                       0.8472
+  Min / Max stored correctness                 0.692 / 0.9367
+  High-quality cases (>=0.65)                  4
+  High-quality rate                            1.0
+    pipeline 'recommend'  n=2  avg             0.8143
+    pipeline 'retrieval_planner'  n=2  avg     0.88
+
+========================================================================
+  KG FUSION
+========================================================================
+  KG changed top result rate                   n/a
+    dense influenced turns                     0
+    sparse influenced turns                    0
+    kg influenced turns                        0
+    memory influenced turns                    0
+    reranker influenced turns                  0
+
+========================================================================
+  PER-CATEGORY BREAKDOWN
+========================================================================
+
+  recommend
+    n=10  scored=0  correctness=None  fa_frac=None  pc=None  judge=5.234  faith=None  AR=0.87
+
+========================================================================
+  JSON report : unified_eval_report.json
+========================================================================

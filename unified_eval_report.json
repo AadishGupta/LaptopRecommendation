@@ -1,0 +1,642 @@
+{
+  "summary": {
+    "total_turns": 10,
+    "gt_scored": 0,
+    "unscored_no_gt": 10,
+    "errors": 0,
+    "avg_correctness": null,
+    "std_correctness": null,
+    "min_correctness": null,
+    "max_correctness": null,
+    "avg_fa_frac": null,
+    "avg_price_closeness": null,
+    "classification_metrics": {
+      "n": 0
+    },
+    "avg_recall_at_10": null,
+    "avg_precision_at_10": null,
+    "avg_mrr": null,
+    "avg_ndcg_at_10": null,
+    "avg_latency_ms": null,
+    "avg_judge_comprehensiveness": 4.3,
+    "avg_judge_diversity": 4.7,
+    "avg_judge_empowerment": 4.8,
+    "avg_judge_directness": 6.4,
+    "avg_judge_factual_accuracy": 3.8,
+    "avg_judge_specificity": 6.0,
+    "avg_judge_coherence": 7.4,
+    "avg_judge_conciseness": 6.2,
+    "avg_judge_helpfulness": 3.5,
+    "avg_judge_overall": 5.234,
+    "avg_judge_retrieval_quality": 4.701,
+    "avg_judge_answer_quality": 5.875,
+    "avg_faithfulness": null,
+    "avg_answer_relevancy": 0.87,
+    "recency_windows": {
+      "correctness": {
+        "last_1": null,
+        "last_5_avg": null,
+        "last_10_avg": null
+      },
+      "field_agreement_frac": {
+        "last_1": null,
+        "last_5_avg": null,
+        "last_10_avg": null
+      },
+      "price_closeness": {
+        "last_1": null,
+        "last_5_avg": null,
+        "last_10_avg": null
+      },
+      "recall_at_10": {
+        "last_1": null,
+        "last_5_avg": null,
+        "last_10_avg": null
+      },
+      "precision_at_10": {
+        "last_1": null,
+        "last_5_avg": null,
+        "last_10_avg": null
+      },
+      "mrr": {
+        "last_1": null,
+        "last_5_avg": null,
+        "last_10_avg": null
+      },
+      "ndcg_at_10": {
+        "last_1": null,
+        "last_5_avg": null,
+        "last_10_avg": null
+      },
+      "judge_comprehensiveness": {
+        "last_1": 6,
+        "last_5_avg": 4.2,
+        "last_10_avg": 4.3
+      },
+      "judge_diversity": {
+        "last_1": 8,
+        "last_5_avg": 5.8,
+        "last_10_avg": 4.7
+      },
+      "judge_empowerment": {
+        "last_1": 7,
+        "last_5_avg": 5.2,
+        "last_10_avg": 4.8
+      },
+      "judge_directness": {
+        "last_1": 9,
+        "last_5_avg": 7.6,
+        "last_10_avg": 6.4
+      },
+      "judge_factual_accuracy": {
+        "last_1": 5,
+        "last_5_avg": 3.4,
+        "last_10_avg": 3.8
+      },
+      "judge_specificity": {
+        "last_1": 9,
+        "last_5_avg": 6.4,
+        "last_10_avg": 6.0
+      },
+      "judge_coherence": {
+        "last_1": 9,
+        "last_5_avg": 7.8,
+        "last_10_avg": 7.4
+      },
+      "judge_conciseness": {
+        "last_1": 9,
+        "last_5_avg": 7.6,
+        "last_10_avg": 6.2
+      },
+      "judge_helpfulness": {
+        "last_1": 6,
+        "last_5_avg": 4.0,
+        "last_10_avg": 3.5
+      },
+      "judge_judge_avg": {
+        "last_1": 7.56,
+        "last_5_avg": 5.778,
+        "last_10_avg": 5.234
+      },
+      "judge_retrieval_quality": {
+        "last_1": 6.67,
+        "last_5_avg": 4.668,
+        "last_10_avg": 4.701
+      },
+      "judge_answer_quality": {
+        "last_1": 8.25,
+        "last_5_avg": 6.75,
+        "last_10_avg": 5.875
+      },
+      "faithfulness": {
+        "last_1": null,
+        "last_5_avg": null,
+        "last_10_avg": null
+      },
+      "answer_relevancy": {
+        "last_1": 0.882,
+        "last_5_avg": 0.8834,
+        "last_10_avg": 0.87
+      }
+    },
+    "by_category": {
+      "recommend": {
+        "n": 10,
+        "n_scored": 0,
+        "avg_correctness": null,
+        "avg_fa": null,
+        "avg_fa_frac": null,
+        "avg_pc": null,
+        "avg_judge": 5.234,
+        "avg_faithfulness": null,
+        "avg_ar": 0.87
+      }
+    },
+    "kg_changed_top_rate": null,
+    "retrieval_attribution_counts": {
+      "dense": 0,
+      "sparse": 0,
+      "kg": 0,
+      "memory": 0,
+      "reranker": 0
+    },
+    "case_memory_stats": {
+      "total": 24,
+      "scored": 4,
+      "unscored": 20,
+      "avg_correctness": 0.8472,
+      "min_correctness": 0.692,
+      "max_correctness": 0.9367,
+      "high_quality_cases": 4,
+      "high_quality_rate": 1.0,
+      "by_pipeline": {
+        "recommend": {
+          "n": 2,
+          "avg": 0.8143
+        },
+        "retrieval_planner": {
+          "n": 2,
+          "avg": 0.88
+        }
+      }
+    }
+  },
+  "case_memory": {
+    "total": 24,
+    "scored": 4,
+    "unscored": 20,
+    "avg_correctness": 0.8472,
+    "min_correctness": 0.692,
+    "max_correctness": 0.9367,
+    "high_quality_cases": 4,
+    "high_quality_rate": 1.0,
+    "by_pipeline": {
+      "recommend": {
+        "n": 2,
+        "avg": 0.8143
+      },
+      "retrieval_planner": {
+        "n": 2,
+        "avg": 0.88
+      }
+    }
+  },
+  "results": [
+    {
+      "source": "log",
+      "pipeline": "recommend",
+      "category": "recommend",
+      "question": "I need a laptop with high GPU intensity, high display quality, medium portability, medium multitasking, medium processing speed and a budget of 200000.",
+      "answer_length": 1993,
+      "n_contexts": 28,
+      "timestamp": "2026-07-14T10:30:43.011549",
+      "latency_ms": null,
+      "correctness": null,
+      "field_agreement": null,
+      "field_agreement_frac": null,
+      "field_agreement_ceiling": null,
+      "price_closeness": null,
+      "combo_key": null,
+      "recommended_name": null,
+      "gt_laptop_name": null,
+      "retrieval_metrics": {},
+      "retrieval_attribution": {},
+      "kg_changed_top": null,
+      "judge_scores": {
+        "comprehensiveness": 8,
+        "diversity": 6,
+        "empowerment": 7,
+        "directness": 9,
+        "factual_accuracy": 9,
+        "specificity": 8,
+        "coherence": 8,
+        "conciseness": 7,
+        "helpfulness": 8,
+        "judge_avg": 7.78,
+        "judge_max": 9,
+        "judge_min": 6,
+        "rationale": "The answer provides a clear and concise comparison of three laptops, but could benefit from more detailed analysis of each laptop's specifications.",
+        "n_criteria": 9,
+        "retrieval_quality": 8.33,
+        "answer_quality": 8.0
+      },
+      "ragas_scores": {
+        "answer_relevancy": 0.824,
+        "faithfulness": null,
+        "method": "embedding"
+      }
+    },
+    {
+      "source": "log",
+      "pipeline": "recommend",
+      "category": "recommend",
+      "question": "I need a laptop with high GPU intensity, medium display quality, low portability, low multitasking, low processing speed and a budget of 50000.",
+      "answer_length": 3894,
+      "n_contexts": 28,
+      "timestamp": "2026-07-18T13:58:39.620914",
+      "latency_ms": null,
+      "correctness": null,
+      "field_agreement": null,
+      "field_agreement_frac": null,
+      "field_agreement_ceiling": null,
+      "price_closeness": null,
+      "combo_key": null,
+      "recommended_name": null,
+      "gt_laptop_name": null,
+      "retrieval_metrics": {},
+      "retrieval_attribution": {},
+      "kg_changed_top": null,
+      "judge_scores": {
+        "comprehensiveness": 8,
+        "diversity": 6,
+        "empowerment": 7,
+        "directness": 4,
+        "factual_accuracy": 9,
+        "specificity": 5,
+        "coherence": 8,
+        "conciseness": 3,
+        "helpfulness": 2,
+        "judge_avg": 5.78,
+        "judge_max": 9,
+        "judge_min": 2,
+        "rationale": "The answer provides a detailed comparison of laptops but fails to address the user's specific requirements and budget.",
+        "n_criteria": 9,
+        "retrieval_quality": 7.33,
+        "answer_quality": 4.25
+      },
+      "ragas_scores": {
+        "answer_relevancy": 0.836,
+        "faithfulness": null,
+        "method": "embedding"
+      }
+    },
+    {
+      "source": "log",
+      "pipeline": "recommend",
+      "category": "recommend",
+      "question": "I need a laptop with high GPU intensity, high display quality, high portability, high multitasking, high processing speed and a budget of 1000000.",
+      "answer_length": 2979,
+      "n_contexts": 0,
+      "timestamp": "2026-07-21T06:33:26.656292",
+      "latency_ms": null,
+      "correctness": null,
+      "field_agreement": null,
+      "field_agreement_frac": null,
+      "field_agreement_ceiling": null,
+      "price_closeness": null,
+      "combo_key": null,
+      "recommended_name": null,
+      "gt_laptop_name": null,
+      "retrieval_metrics": {},
+      "retrieval_attribution": {},
+      "kg_changed_top": null,
+      "judge_scores": {
+        "comprehensiveness": 2,
+        "diversity": 2,
+        "empowerment": 3,
+        "directness": 4,
+        "factual_accuracy": 1,
+        "specificity": 5,
+        "coherence": 6,
+        "conciseness": 4,
+        "helpfulness": 2,
+        "judge_avg": 3.22,
+        "judge_max": 6,
+        "judge_min": 1,
+        "rationale": "The model hallucinated its own context and data instead of relying on the provided source material, leading to significant factual inaccuracies and a failure to perform the RAG task correctly.",
+        "n_criteria": 9,
+        "retrieval_quality": 2.67,
+        "answer_quality": 4.0
+      },
+      "ragas_scores": {}
+    },
+    {
+      "source": "log",
+      "pipeline": "recommend",
+      "category": "recommend",
+      "question": "I need a laptop with high GPU intensity, high display quality, high portability, high multitasking, high processing speed and a budget of 1000000.",
+      "answer_length": 2673,
+      "n_contexts": 28,
+      "timestamp": "2026-07-21T06:43:34.254537",
+      "latency_ms": null,
+      "correctness": null,
+      "field_agreement": null,
+      "field_agreement_frac": null,
+      "field_agreement_ceiling": null,
+      "price_closeness": null,
+      "combo_key": null,
+      "recommended_name": null,
+      "gt_laptop_name": null,
+      "retrieval_metrics": {},
+      "retrieval_attribution": {},
+      "kg_changed_top": null,
+      "judge_scores": {
+        "comprehensiveness": 2,
+        "diversity": 2,
+        "empowerment": 3,
+        "directness": 4,
+        "factual_accuracy": 1,
+        "specificity": 8,
+        "coherence": 7,
+        "conciseness": 6,
+        "helpfulness": 2,
+        "judge_avg": 3.89,
+        "judge_max": 8,
+        "judge_min": 1,
+        "rationale": "The answer hallucinates specific laptop models, prices, and internal specifications that are completely absent from the provided context, rendering the factual accuracy and helpfulness extremely low.",
+        "n_criteria": 9,
+        "retrieval_quality": 3.67,
+        "answer_quality": 4.75
+      },
+      "ragas_scores": {
+        "answer_relevancy": 0.88,
+        "faithfulness": null,
+        "method": "embedding"
+      }
+    },
+    {
+      "source": "log",
+      "pipeline": "recommend",
+      "category": "recommend",
+      "question": "I need a laptop with high GPU intensity, high display quality, low portability, high multitasking, high processing speed and a budget of 1000000.",
+      "answer_length": 2826,
+      "n_contexts": 28,
+      "timestamp": "2026-07-21T07:06:05.529798",
+      "latency_ms": null,
+      "correctness": null,
+      "field_agreement": null,
+      "field_agreement_frac": null,
+      "field_agreement_ceiling": null,
+      "price_closeness": null,
+      "combo_key": null,
+      "recommended_name": null,
+      "gt_laptop_name": null,
+      "retrieval_metrics": {},
+      "retrieval_attribution": {},
+      "kg_changed_top": null,
+      "judge_scores": {
+        "comprehensiveness": 2,
+        "diversity": 2,
+        "empowerment": 2,
+        "directness": 5,
+        "factual_accuracy": 1,
+        "specificity": 2,
+        "coherence": 6,
+        "conciseness": 4,
+        "helpfulness": 1,
+        "judge_avg": 2.78,
+        "judge_max": 6,
+        "judge_min": 1,
+        "rationale": "The answer completely hallucinates specific laptop models and specifications that are not present in the provided context, rendering the factual accuracy and helpfulness extremely poor.",
+        "n_criteria": 9,
+        "retrieval_quality": 1.67,
+        "answer_quality": 4.0
+      },
+      "ragas_scores": {
+        "answer_relevancy": 0.873,
+        "faithfulness": null,
+        "method": "embedding"
+      }
+    },
+    {
+      "source": "log",
+      "pipeline": "recommend",
+      "category": "recommend",
+      "question": "I need a laptop with high GPU intensity, high display quality, low portability, high multitasking, high processing speed and a budget of 1000000.",
+      "answer_length": 2923,
+      "n_contexts": 28,
+      "timestamp": "2026-07-21T07:23:59.833540",
+      "latency_ms": null,
+      "correctness": null,
+      "field_agreement": null,
+      "field_agreement_frac": null,
+      "field_agreement_ceiling": null,
+      "price_closeness": null,
+      "combo_key": null,
+      "recommended_name": null,
+      "gt_laptop_name": null,
+      "retrieval_metrics": {},
+      "retrieval_attribution": {},
+      "kg_changed_top": null,
+      "judge_scores": {
+        "comprehensiveness": 3,
+        "diversity": 4,
+        "empowerment": 4,
+        "directness": 5,
+        "factual_accuracy": 2,
+        "specificity": 3,
+        "coherence": 6,
+        "conciseness": 5,
+        "helpfulness": 2,
+        "judge_avg": 3.78,
+        "judge_max": 6,
+        "judge_min": 2,
+        "rationale": "The answer hallucinates significant amounts of information not present in the provided context (such as specific CPU models, GPU models, and pricing) and cuts off mid-sentence, rendering it unreliable and incomplete.",
+        "n_criteria": 9,
+        "retrieval_quality": 2.67,
+        "answer_quality": 4.5
+      },
+      "ragas_scores": {
+        "answer_relevancy": 0.878,
+        "faithfulness": null,
+        "method": "embedding"
+      }
+    },
+    {
+      "source": "log",
+      "pipeline": "recommend",
+      "category": "recommend",
+      "question": "I need a laptop with high GPU intensity, high display quality, low portability, high multitasking, high processing speed and a budget of 1000000.",
+      "answer_length": 725,
+      "n_contexts": 28,
+      "timestamp": "2026-07-21T07:36:59.774300",
+      "latency_ms": null,
+      "correctness": null,
+      "field_agreement": null,
+      "field_agreement_frac": null,
+      "field_agreement_ceiling": null,
+      "price_closeness": null,
+      "combo_key": null,
+      "recommended_name": null,
+      "gt_laptop_name": null,
+      "retrieval_metrics": {},
+      "retrieval_attribution": {},
+      "kg_changed_top": null,
+      "judge_scores": {
+        "comprehensiveness": 1,
+        "diversity": 1,
+        "empowerment": 1,
+        "directness": 5,
+        "factual_accuracy": 1,
+        "specificity": 1,
+        "coherence": 5,
+        "conciseness": 5,
+        "helpfulness": 1,
+        "judge_avg": 2.33,
+        "judge_max": 5,
+        "judge_min": 1,
+        "rationale": "The answer hallucinates specific laptop models and specifications that are completely absent from the provided context, rendering it factually inaccurate and unhelpful.",
+        "n_criteria": 9,
+        "retrieval_quality": 1.0,
+        "answer_quality": 4.0
+      },
+      "ragas_scores": {
+        "answer_relevancy": 0.891,
+        "faithfulness": null,
+        "method": "embedding"
+      }
+    },
+    {
+      "source": "log",
+      "pipeline": "recommend",
+      "category": "recommend",
+      "question": "I need a laptop with high GPU intensity, high display quality, low portability, high multitasking, high processing speed and a budget of 500000.",
+      "answer_length": 903,
+      "n_contexts": 28,
+      "timestamp": "2026-07-21T07:43:23.690890",
+      "latency_ms": null,
+      "correctness": null,
+      "field_agreement": null,
+      "field_agreement_frac": null,
+      "field_agreement_ceiling": null,
+      "price_closeness": null,
+      "combo_key": null,
+      "recommended_name": null,
+      "gt_laptop_name": null,
+      "retrieval_metrics": {},
+      "retrieval_attribution": {},
+      "kg_changed_top": null,
+      "judge_scores": {
+        "comprehensiveness": 2,
+        "diversity": 8,
+        "empowerment": 5,
+        "directness": 9,
+        "factual_accuracy": 1,
+        "specificity": 9,
+        "coherence": 9,
+        "conciseness": 9,
+        "helpfulness": 2,
+        "judge_avg": 6.0,
+        "judge_max": 9,
+        "judge_min": 1,
+        "rationale": "The answer completely ignores the provided context, hallucinating specific laptop models and prices that are not present in the source text, rendering it factually unreliable despite its good structure.",
+        "n_criteria": 9,
+        "retrieval_quality": 4.0,
+        "answer_quality": 7.25
+      },
+      "ragas_scores": {
+        "answer_relevancy": 0.888,
+        "faithfulness": null,
+        "method": "embedding"
+      }
+    },
+    {
+      "source": "log",
+      "pipeline": "recommend",
+      "category": "recommend",
+      "question": "I need a laptop with high GPU intensity, high display quality, low portability, high multitasking, high processing speed and a budget of 500000.",
+      "answer_length": 932,
+      "n_contexts": 28,
+      "timestamp": "2026-07-21T07:56:14.909005",
+      "latency_ms": null,
+      "correctness": null,
+      "field_agreement": null,
+      "field_agreement_frac": null,
+      "field_agreement_ceiling": null,
+      "price_closeness": null,
+      "combo_key": null,
+      "recommended_name": null,
+      "gt_laptop_name": null,
+      "retrieval_metrics": {},
+      "retrieval_attribution": {},
+      "kg_changed_top": null,
+      "judge_scores": {
+        "comprehensiveness": 9,
+        "diversity": 8,
+        "empowerment": 9,
+        "directness": 10,
+        "factual_accuracy": 8,
+        "specificity": 10,
+        "coherence": 10,
+        "conciseness": 10,
+        "helpfulness": 9,
+        "judge_avg": 9.22,
+        "judge_max": 10,
+        "judge_min": 8,
+        "rationale": "The answer provides specific, relevant recommendations that align well with the user's high-performance requirements and budget, though it hallucinates specific GPU models like the 'RTX 5070' which are not in the provided context.",
+        "n_criteria": 9,
+        "retrieval_quality": 9.0,
+        "answer_quality": 9.75
+      },
+      "ragas_scores": {
+        "answer_relevancy": 0.878,
+        "faithfulness": null,
+        "method": "embedding"
+      }
+    },
+    {
+      "source": "log",
+      "pipeline": "recommend",
+      "category": "recommend",
+      "question": "I need a laptop with high GPU intensity, high display quality, medium portability, high multitasking, high processing speed and a budget of 1000000.",
+      "answer_length": 896,
+      "n_contexts": 28,
+      "timestamp": "2026-07-21T08:12:58.191235",
+      "latency_ms": null,
+      "correctness": null,
+      "field_agreement": null,
+      "field_agreement_frac": null,
+      "field_agreement_ceiling": null,
+      "price_closeness": null,
+      "combo_key": null,
+      "recommended_name": null,
+      "gt_laptop_name": null,
+      "retrieval_metrics": {},
+      "retrieval_attribution": {},
+      "kg_changed_top": null,
+      "judge_scores": {
+        "comprehensiveness": 6,
+        "diversity": 8,
+        "empowerment": 7,
+        "directness": 9,
+        "factual_accuracy": 5,
+        "specificity": 9,
+        "coherence": 9,
+        "conciseness": 9,
+        "helpfulness": 6,
+        "judge_avg": 7.56,
+        "judge_max": 9,
+        "judge_min": 5,
+        "rationale": "The answer provides specific models and prices, but it contradicts itself by recommending laptops that it then explicitly states do not meet the user's requirements for high-intensity tasks.",
+        "n_criteria": 9,
+        "retrieval_quality": 6.67,
+        "answer_quality": 8.25
+      },
+      "ragas_scores": {
+        "answer_relevancy": 0.882,
+        "faithfulness": null,
+        "method": "embedding"
+      }
+    }
+  ]
+}

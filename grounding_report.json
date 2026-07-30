@@ -1,0 +1,364 @@
+{
+  "summary": {
+    "total_questions": 25,
+    "errors": 0,
+    "ragas_averages": {
+      "faithfulness": null,
+      "answer_relevancy": null
+    },
+    "judge_averages": {
+      "comprehensiveness": 8.0,
+      "diversity": 6.091,
+      "empowerment": 7.182,
+      "directness": 8.727
+    },
+    "by_category": {
+      "business/professional laptop shopping (multitasking, build quality, typically ₹50,000-₹90,000)": {
+        "count": 4,
+        "ragas_averages": {
+          "faithfulness": null,
+          "answer_relevancy": null
+        },
+        "judge_averages": {
+          "comprehensiveness": 8.0,
+          "diversity": 6.0,
+          "empowerment": 7.0,
+          "directness": 9.0
+        }
+      },
+      "creative work laptop shopping (display quality, GPU for editing, typically ₹80,000-₹200,000+)": {
+        "count": 4,
+        "ragas_averages": {
+          "faithfulness": null,
+          "answer_relevancy": null
+        },
+        "judge_averages": {
+          "comprehensiveness": 8.0,
+          "diversity": 6.0,
+          "empowerment": 7.0,
+          "directness": 9.0
+        }
+      },
+      "gaming laptop shopping (GPU, refresh rate, budget tradeoffs, typically budgets from ₹60,000-₹150,000+)": {
+        "count": 5,
+        "ragas_averages": {
+          "faithfulness": null,
+          "answer_relevancy": null
+        },
+        "judge_averages": {
+          "comprehensiveness": 8.0,
+          "diversity": 7.0,
+          "empowerment": 9.0,
+          "directness": 6.0
+        }
+      },
+      "laptop upgrade advice (comparing current laptop to new options)": {
+        "count": 4,
+        "ragas_averages": {
+          "faithfulness": null,
+          "answer_relevancy": null
+        },
+        "judge_averages": {
+          "comprehensiveness": 8.0,
+          "diversity": 6.0,
+          "empowerment": 7.0,
+          "directness": 9.0
+        }
+      },
+      "side-by-side laptop comparison requests (naming two specific models)": {
+        "count": 4,
+        "ragas_averages": {
+          "faithfulness": null,
+          "answer_relevancy": null
+        },
+        "judge_averages": {
+          "comprehensiveness": null,
+          "diversity": null,
+          "empowerment": null,
+          "directness": null
+        }
+      },
+      "student/budget laptop shopping (portability, battery, low budget, typically under ₹35,000)": {
+        "count": 4,
+        "ragas_averages": {
+          "faithfulness": null,
+          "answer_relevancy": null
+        },
+        "judge_averages": {
+          "comprehensiveness": 8.0,
+          "diversity": 6.0,
+          "empowerment": 7.0,
+          "directness": 9.0
+        }
+      }
+    }
+  },
+  "results": [
+    {
+      "category": "gaming laptop shopping (GPU, refresh rate, budget tradeoffs, typically budgets from ₹60,000-₹150,000+)",
+      "question": "What gaming laptops in the ₹60k-₹150k range have an RTX 4080 GPU?",
+      "phase": "followup",
+      "ragas_scores": {},
+      "judge_scores": {
+        "comprehensiveness": 8,
+        "diversity": 7,
+        "empowerment": 9,
+        "directness": 6,
+        "rationale": "The Asus Vivobook S 15 OLED 2024 S5506MA-MA752WS Laptop is the best fit for the user's requirements due to its balanced performance and features."
+      },
+      "last_response": "What's your budget for this?"
+    },
+    {
+      "category": "student/budget laptop shopping (portability, battery, low budget, typically under ₹35,000)",
+      "question": "Looking for a cheap laptop under ₹35,000 that’s good for studying at home.",
+      "phase": "followup",
+      "ragas_scores": {},
+      "judge_scores": {
+        "comprehensiveness": 8,
+        "diversity": 6,
+        "empowerment": 7,
+        "directness": 9,
+        "rationale": "The recommended laptop, Dell Inspiron 14-3442 Laptop (4th Gen Intel Core i3/4GB /500GB /2GB graph/ DOS), meets all the medium-tier requirements and is within the budget of ₹35,000."
+      },
+      "last_response": "Great choice! What's your budget for this?"
+    },
+    {
+      "category": "business/professional laptop shopping (multitasking, build quality, typically ₹50,000-₹90,000)",
+      "question": "Best business laptop under 70k",
+      "phase": "followup",
+      "ragas_scores": {},
+      "judge_scores": {
+        "comprehensiveness": 8,
+        "diversity": 6,
+        "empowerment": 7,
+        "directness": 9,
+        "rationale": "The HP Victus 16-r1705TX Gaming Laptop is the best fit for medium-tier processing, multitasking, and budget requirements."
+      },
+      "last_response": "What's your budget for this?"
+    },
+    {
+      "category": "creative work laptop shopping (display quality, GPU for editing, typically ₹80,000-₹200,000+)",
+      "question": "Here is a curated list of 33 realistic and diverse questions users might type when looking for a laptop for creative work within the ₹80k to ₹200k range:",
+      "phase": "followup",
+      "ragas_scores": {},
+      "judge_scores": {
+        "comprehensiveness": 8,
+        "diversity": 6,
+        "empowerment": 7,
+        "directness": 9,
+        "rationale": "The Asus VivoBook F571LI-AL146T Gaming Laptop is the best choice due to its high GPU intensity, display quality, and multitasking capabilities."
+      },
+      "last_response": "What's your budget for this?"
+    },
+    {
+      "category": "laptop upgrade advice (comparing current laptop to new options)",
+      "question": "What's the best budget laptop for upgrading from my old one?",
+      "phase": "gather",
+      "ragas_scores": {},
+      "judge_scores": {},
+      "last_response": "What's your budget for this?"
+    },
+    {
+      "category": "side-by-side laptop comparison requests (naming two specific models)",
+      "question": "Here are 33 diverse questions a user might type when comparing two specific laptops:",
+      "phase": "gather",
+      "ragas_scores": {},
+      "judge_scores": {},
+      "last_response": "What's your budget for this?"
+    },
+    {
+      "category": "gaming laptop shopping (GPU, refresh rate, budget tradeoffs, typically budgets from ₹60,000-₹150,000+)",
+      "question": "Can I play high-end games at full settings with a 144Hz or 165Hz laptop?",
+      "phase": "gather",
+      "ragas_scores": {},
+      "judge_scores": {},
+      "last_response": "You're looking for gaming performance. To confirm, you'd like to run high-end games at full settings on your laptop. What's your budget for this?"
+    },
+    {
+      "category": "student/budget laptop shopping (portability, battery, low budget, typically under ₹35,000)",
+      "question": "What are some budget-friendly laptops available under ₹35,000?",
+      "phase": "followup",
+      "ragas_scores": {},
+      "judge_scores": {
+        "comprehensiveness": 8,
+        "diversity": 6,
+        "empowerment": 7,
+        "directness": 9,
+        "rationale": "The Lenovo LOQ 83DV007GIN Gaming Laptop is the best fit for medium-tier requirements due to its balanced performance and price."
+      },
+      "last_response": "Great choice! What's your budget for this?"
+    },
+    {
+      "category": "business/professional laptop shopping (multitasking, build quality, typically ₹50,000-₹90,000)",
+      "question": "Where is the best place to buy a professional laptop?",
+      "phase": "gather",
+      "ragas_scores": {},
+      "judge_scores": {},
+      "last_response": "You're looking for a professional laptop! What's your budget for this?"
+    },
+    {
+      "category": "creative work laptop shopping (display quality, GPU for editing, typically ₹80,000-₹200,000+)",
+      "question": "Looking for a laptop for creative work, ₹80k-₹200k range.",
+      "phase": "followup",
+      "ragas_scores": {},
+      "judge_scores": {
+        "comprehensiveness": 8,
+        "diversity": 6,
+        "empowerment": 7,
+        "directness": 9,
+        "rationale": "The recommended laptop, Asus Vivobook S 15 OLED 2024 S5506MA-MA752WS Laptop, meets most of the medium-tier requirements and offers excellent value for its features and performance."
+      },
+      "last_response": "Great choice! What's your budget for this?"
+    },
+    {
+      "category": "laptop upgrade advice (comparing current laptop to new options)",
+      "question": "Can you recommend laptops in the $800-$1000 range that are worth the upgrade?",
+      "phase": "followup",
+      "ragas_scores": {},
+      "judge_scores": {
+        "comprehensiveness": 8,
+        "diversity": 6,
+        "empowerment": 7,
+        "directness": 9,
+        "rationale": "The Lenovo Ideapad S340 81VV00FNIN Laptop is recommended due to its balance of features, price, and performance."
+      },
+      "last_response": "What's your budget for this?"
+    },
+    {
+      "category": "side-by-side laptop comparison requests (naming two specific models)",
+      "question": "How does the performance stack up against the [Model A] compared to the [Model B]?",
+      "phase": "gather",
+      "ragas_scores": {},
+      "judge_scores": {},
+      "last_response": "I'd be happy to help you compare the two models. However, I don't have any information about your budget yet. What's your budget for this?"
+    },
+    {
+      "category": "gaming laptop shopping (GPU, refresh rate, budget tradeoffs, typically budgets from ₹60,000-₹150,000+)",
+      "question": "Is there any laptop in this budget with NVIDIA Reflex to reduce latency for competitive gaming?",
+      "phase": "gather",
+      "ragas_scores": {},
+      "judge_scores": {},
+      "last_response": "You mentioned NVIDIA Reflex, which is a great feature for competitive gamers. What's your budget for this?"
+    },
+    {
+      "category": "student/budget laptop shopping (portability, battery, low budget, typically under ₹35,000)",
+      "question": "Can you recommend a lightweight laptop under ₹35,000 for a student?",
+      "phase": "followup",
+      "ragas_scores": {},
+      "judge_scores": {
+        "comprehensiveness": 8,
+        "diversity": 6,
+        "empowerment": 7,
+        "directness": 9,
+        "rationale": "The Dell Inspiron 14-3442 Laptop is the best fit for this user requirement due to its balanced performance, within budget, and lightweight design."
+      },
+      "last_response": "Great choice! What's your budget for this?"
+    },
+    {
+      "category": "business/professional laptop shopping (multitasking, build quality, typically ₹50,000-₹90,000)",
+      "question": "Does it have 4K display and good resolution?",
+      "phase": "followup",
+      "ragas_scores": {},
+      "judge_scores": {
+        "comprehensiveness": 8,
+        "diversity": 6,
+        "empowerment": 7,
+        "directness": 9,
+        "rationale": "The Dell Inspiron 14-3442 Laptop is the best fit for users who need a basic laptop with medium-tier performance and are on a budget."
+      },
+      "last_response": "Since the user has already mentioned their use case and preferences, I'll skip asking about GPU, display, portability, multitasking, or processing speed. As for your question, yes, a 4K display with good resolution is available in many laptops that fit your needs. Great choice! What's your budget for this?"
+    },
+    {
+      "category": "creative work laptop shopping (display quality, GPU for editing, typically ₹80,000-₹200,000+)",
+      "question": "What's best for image editing in this price bracket?",
+      "phase": "gather",
+      "ragas_scores": {},
+      "judge_scores": {},
+      "last_response": "What's your budget for this?"
+    },
+    {
+      "category": "laptop upgrade advice (comparing current laptop to new options)",
+      "question": "Should I get a laptop with an i7 or i5 processor if I want better performance?",
+      "phase": "gather",
+      "ragas_scores": {},
+      "judge_scores": {},
+      "last_response": "A good processor is essential for your needs. Since you mentioned multitasking and heavy usage earlier, I'd recommend going with the i7 processor for even more robust performance. What's your budget for this?"
+    },
+    {
+      "category": "side-by-side laptop comparison requests (naming two specific models)",
+      "question": "Which laptop between [Model X] and [Model Y] offers better battery life?",
+      "phase": "gather",
+      "ragas_scores": {},
+      "judge_scores": {},
+      "last_response": "I've taken note of your interest in comparing the battery life of [Model X] and [Model Y]. To help me provide a more accurate comparison, what's your budget for this?"
+    },
+    {
+      "category": "gaming laptop shopping (GPU, refresh rate, budget tradeoffs, typically budgets from ₹60,000-₹150,000+)",
+      "question": "What gaming laptops offer dual monitors and high refresh rates, say up to 160Hz?",
+      "phase": "gather",
+      "ragas_scores": {},
+      "judge_scores": {},
+      "last_response": "Great choice! What's your budget for this?"
+    },
+    {
+      "category": "student/budget laptop shopping (portability, battery, low budget, typically under ₹35,000)",
+      "question": "Do you have any suggestions for a 13-inch laptop under ₹35,000?",
+      "phase": "followup",
+      "ragas_scores": {},
+      "judge_scores": {
+        "comprehensiveness": 8,
+        "diversity": 6,
+        "empowerment": 7,
+        "directness": 9,
+        "rationale": "The Lenovo V15 82C70017IH Laptop is the best fit for the user requirements due to its balance of performance and price."
+      },
+      "last_response": "Great choice! What's your budget for this?"
+    },
+    {
+      "category": "business/professional laptop shopping (multitasking, build quality, typically ₹50,000-₹90,000)",
+      "question": "What's the latest processor for a business laptop in this price range?",
+      "phase": "gather",
+      "ragas_scores": {},
+      "judge_scores": {},
+      "last_response": "What's your budget for this?"
+    },
+    {
+      "category": "creative work laptop shopping (display quality, GPU for editing, typically ₹80,000-₹200,000+)",
+      "question": "Need recommendations for ₹80k-₹200k laptops with good display and CPU.",
+      "phase": "followup",
+      "ragas_scores": {},
+      "judge_scores": {
+        "comprehensiveness": 8,
+        "diversity": 6,
+        "empowerment": 7,
+        "directness": 9,
+        "rationale": "The recommended laptop, Asus Vivobook S 15 OLED 2024 S5506MA-MA752WS Laptop, meets most of the medium-tier requirements and offers excellent value for its features and performance."
+      },
+      "last_response": "Great choice! What's your budget for this?"
+    },
+    {
+      "category": "laptop upgrade advice (comparing current laptop to new options)",
+      "question": "Is there a good deal on a Windows laptop with at least 16GB RAM right now?",
+      "phase": "gather",
+      "ragas_scores": {},
+      "judge_scores": {},
+      "last_response": "I've taken note of your requirements for a Windows laptop with at least 16GB RAM. What's your budget for this?"
+    },
+    {
+      "category": "side-by-side laptop comparison requests (naming two specific models)",
+      "question": "What features set [Model P] apart from [Model Q]?",
+      "phase": "gather",
+      "ragas_scores": {},
+      "judge_scores": {},
+      "last_response": "What's your budget for this?"
+    },
+    {
+      "category": "gaming laptop shopping (GPU, refresh rate, budget tradeoffs, typically budgets from ₹60,000-₹150,000+)",
+      "question": "Are there budget-friendly options for an RTX 4070 or similar without sacrificing too much performance?",
+      "phase": "gather",
+      "ragas_scores": {},
+      "judge_scores": {},
+      "last_response": "Great choice! What's your budget for this?"
+    }
+  ]
+}
